@@ -49,31 +49,72 @@ body {
     font-family: 'BebasNeueBook';
     font-size: 20px;
     text-align: center;
-    margin-bottom: 0px;
-    margin-left: 0px;
-    margin-right: 0px;
-    margin-top:0px;
+	margin:0px;
+	padding:0px;
 }
 
-.Title {
-    font-family: 'BebasNeueBook';
-    font-size: 77px;
-	position:absolute;
-    top:20%;
-    left:41%;
+#Navigation {
+	height: 50px;
+	width:98.5vw;
+	background-color: #050505;
+	font-size: 32px;
+	-webkit-transition: all 0.5s ease;
+}
+
+#Navigation  ul{
+	padding:0px;
+	margin:0px;
+}
+
+#Navigation  ul li{
+	list-style: none;
+	display:inline-block;
+	padding-top:6px;
+}
+
+#Navigation  ul li a{
 	color: white;
+	text-decoration:none;
+	padding:20px;
+
+}
+
+.Intro {
+	height: 70vh;
+	font-family: 'BebasNeueBook';
+	text-align: center;
+	color: white;
+}
+
+
+.Title {
+    font-size: 77px;
+	margin-top: 13vh;
+	padding-left:220px;
     z-index:2;
 }
 
 .caption {
-    font-family:'BebasNeueBook';
     font-size: 40px;
-	position:absolute;
-    top:30%;
-    left:39%;
 	color: white;
     z-index:2;
 }
+
+#Button {
+	position: relative;
+    border-radius: 5px;
+	border:2px solid #FFF;
+	text-align:center; 
+	font-size:30px;
+	color:white;
+    width: 200px;
+    height: 40px; 
+	margin-left: 50%;
+	right:100px;
+	margin-top: 50px;
+	background: rgba(34,34,34,0.75);
+}
+
 
 .Icon img{
     padding:1px;
@@ -83,13 +124,16 @@ body {
 }
 
 #particles-js {
-	margin-bottom: -200px;
+	margin-top: -85vh;
+	margin-bottom: -20vh;
 }
 
 #part2 {
 	background-image: url(../images/aboutme.jpg);
+	background-size: 100vw;
 	height: 1080px;
-	width: 100%;
+	background-color:#050505;
+	background-repeat:no-repeat;
 }
 
 #aboutme {
@@ -141,21 +185,21 @@ body {
 #aboutme p {
 	color: #fff;
 	font-family:'BebasNeueRegular';
-	font-size: 40px;
+	font-size: 32px;
     line-height: 100%;
-	padding-left:200px;
+	padding-left:125px;
 	margin-top: -180px;
 	margin-right: 480px;
 }
 
-
-
-
 #part3 {
+	text-align:center;
 	background-image: url(../images/workexperience.jpg);
-	height: 2000px;
-	width: 100%;
+	background-size: 100vw;
+	height: 1500px;
 	margin-top:-170px;
+	background-repeat:no-repeat;
+	background-color: #5D85FF;
 }
 
 #workexperience  h1 {
@@ -172,41 +216,49 @@ body {
 	line-height:32px;
 	text-align: right;
 	margin-top: -135px;
-	margin-right: 1050px;
+	margin-right: 50%;
+	padding-right:109px;
 }
 
 #workexperience  h3 {
 	color:#fff;
 	font-family:'BebasNeueRegular';
-	font-size: 40px;
-	line-height:32px;
+	font-size: 30px;
+	line-height:25px;
 	text-align: left;
-	margin-top: -135px;
-	margin-left: 1070px;
+	margin-top: -140px;
+	margin-left: 50%;
+	padding-left:109px;
 }
 
-.WorkLogo {
-	padding:1px;
+.WorkLogo img{
+	margin-bottom: -7px;
     border-radius: 100%;
-    border:2px solid #FFF;
-	width: 200px;
-	height:200px;
-	display:block;
-	margin-left:860px;
-	margin-top: -6px;
-
+    border:3px solid #FFF;
+    background-color:#FFF;
 }
 
-
-.WorkLogo.GuestLogix {
-	background-image: url(../images/logo/guestlogix.jpg);
+#part4 {
+	background-image: url(../images/projects.jpg);
+	background-size: 100vw;
+	height: 100vh;
+	background-repeat:no-repeat;
+	background-color:white;
 }
 
-.WorkLogo.MainlyMac {
-	margin-top:-5px;
-	background-image: url(../images/logo/mainlymac.jpg);
+#Projects {
+	text-align: center;
+	margin-top:-170px;
 }
 
-.WorkLogo.ACT {
-	background-image: url(../images/logo/ACT.jpg);
+#Projects  h1 {
+	color:black;
+	font-family:'BebasNeueBold';
+	font-size: 225px;
+	padding-top: 120px;
+}
+
+.ProjectPic img{
+	margin-bottom: -7px;
+    border-radius: 100%;
 }

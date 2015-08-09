@@ -20,6 +20,8 @@ $(function() {
 	.setTween(aboutTween)
 	.addIndicators()
 	.addTo(controller);
-	
+	$(document).ready(function() {
+		   $('#Navigation').localScroll({duration:800});
+	});
 });
 

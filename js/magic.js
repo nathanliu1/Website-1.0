@@ -18,10 +18,30 @@ $(function() {
 		offset: 100
 	})
 	.setTween(aboutTween)
+	.addTo(controller);
+	 var projectTween = TweenMax.staggerFromTo('#Interview', 1,
+        {
+            x: -100,
+            opacity: 0
+        },
+        {
+            x: 0,
+            opacity: 1
+        },
+        0.2
+    );
+	var projectScene = new ScrollMagic.Scene({
+		triggerElement: '#part4',
+		offset: 100
+	})
+	
+	
+	
+	.setTween(projectTween)
 	.addIndicators()
 	.addTo(controller);
-	$(document).ready(function() {
-		   $('#Navigation').localScroll({duration:800});
-	});
+	
+	
+	
 });
 

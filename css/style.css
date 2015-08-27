@@ -322,7 +322,7 @@ body {
 	text-align: center;
 	font-family:'BebasNeueBold';
 	color:white;
-	font-size: 200px;	
+	font-size: 18.52vh;	
 }
 
 #contact h2 {
@@ -332,16 +332,10 @@ body {
 	font-size: 30px;	
 }
 
-#form {
-margin:0px;
-padding:0px;
-
-
-}
 
 #input {
 position:relative;
-margin-bottom:0px;
+margin-bottom:20px;
 height: 60px;
 width: 400px;
 border-radius: 10px;
@@ -349,4 +343,29 @@ font-size: 32px;
 padding: 0 1em;
 border: solid 2px #e4e4e4;
 font-family: BebasNeueRegular;
+}
+
+#output {
+position:relative;
+margin-bottom:20px;
+height: 60px;
+width: 300px;
+border-radius: 10px;
+font-size: 32px;
+padding: 0 1em;
+border: solid 2px #e4e4e4;
+font-family: BebasNeueRegular;
+}
+
+#output:hover {
+color: white;
+background-color:black;
+}
+
+#nlinks img{
+margin-top:390px;
+display:inline;
+border-radius:100%;
+height: 50px;
+width:50px;
 }

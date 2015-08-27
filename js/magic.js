@@ -38,7 +38,6 @@ $(function() {
 	
 	
 	.setTween(projectTween)
-	.addIndicators()
 	.addTo(controller);
 	
 	

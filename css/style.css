@@ -87,6 +87,7 @@ body {
 
 .Intro {
 	height: 70vh;
+	min-height: 800px;
 	font-family: 'BebasNeueBook';
 	text-align: center;
 	color: white;
@@ -137,7 +138,7 @@ body {
 }
 
 #particles-js {
-	margin-top: -85vh;
+	margin-top: -100vh;
 	margin-bottom: -20vh;
 }
 

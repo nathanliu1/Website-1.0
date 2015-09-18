@@ -294,6 +294,15 @@ body {
 	padding-right: 400px;
 }
 
+#Projects  h3 a{
+	color:black;
+	text-decoration:none;
+}
+
+#Projects  h3 a:hover{
+	color:blue;
+	text-decoration:none;
+}
 
 #Interview {
 }
